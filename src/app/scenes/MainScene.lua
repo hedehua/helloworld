@@ -8,6 +8,7 @@ function MainScene:ctor()
     --         UILabelType = 2, text = "Hello, World", size = 64})
     --     :align(display.CENTER, display.cx, display.cy)
     --     :addTo(self)
+    print(234)
     local root = cc.uiloader:load("helloworld.fire")
     root:addTo(self)
 end
